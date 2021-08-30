@@ -1,0 +1,20 @@
+package gui;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.ComboBox;
+import model.entities.Person;
+
+public class ViewController implements Initializable{
+
+	@FXML
+	private ComboBox<Person> comboBoxPerson; //caixa com opções para serem selecionadas pelo usuárop
+
+	@Override
+	public void initialize(URL url, ResourceBundle rb) {
+	}
+
+}

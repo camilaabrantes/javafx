@@ -1,0 +1,9 @@
+package gui;
+
+import javafx.scene.control.Button;
+
+public class ViewController {
+	
+	private Button btTest;
+
+}
